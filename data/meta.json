@@ -1,0 +1,54 @@
+{
+  "last_updated": "2026-04-17T00:02:41.056744+00:00",
+  "next_update": "2026-04-17T00:02:41.056744+00:00",
+  "domain": "amazon.com",
+  "currency": "USD",
+  "categories": [
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "icon": "Smartphone"
+    },
+    {
+      "id": "computers",
+      "name": "Computers",
+      "icon": "Laptop"
+    },
+    {
+      "id": "home",
+      "name": "Home & Kitchen",
+      "icon": "Home"
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion",
+      "icon": "Shirt"
+    },
+    {
+      "id": "beauty",
+      "name": "Beauty",
+      "icon": "Sparkles"
+    },
+    {
+      "id": "toys",
+      "name": "Toys & Games",
+      "icon": "Gamepad2"
+    },
+    {
+      "id": "sports",
+      "name": "Sports & Outdoors",
+      "icon": "Dumbbell"
+    },
+    {
+      "id": "books",
+      "name": "Books",
+      "icon": "BookOpen"
+    }
+  ],
+  "stats": {
+    "total_deals": 1062,
+    "lightning_deals": 0,
+    "deal_of_day": 0,
+    "avg_discount": 27
+  }
+}

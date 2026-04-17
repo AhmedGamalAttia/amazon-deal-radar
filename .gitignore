@@ -1,0 +1,95 @@
+# ═══════════════════════════════════════════════════════════
+# Node / Next.js
+# ═══════════════════════════════════════════════════════════
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+.eslintcache
+next-env.d.ts
+
+# ═══════════════════════════════════════════════════════════
+# Python
+# ═══════════════════════════════════════════════════════════
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ═══════════════════════════════════════════════════════════
+# Environment / Secrets — NEVER commit these
+# ═══════════════════════════════════════════════════════════
+.env
+.env.local
+.env.*.local
+!.env.example
+!**/.env.local.example
+
+# ═══════════════════════════════════════════════════════════
+# Vercel
+# ═══════════════════════════════════════════════════════════
+.vercel
+.vercel.json.local
+
+# ═══════════════════════════════════════════════════════════
+# IDE / Editors
+# ═══════════════════════════════════════════════════════════
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# ═══════════════════════════════════════════════════════════
+# OS
+# ═══════════════════════════════════════════════════════════
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ═══════════════════════════════════════════════════════════
+# Logs
+# ═══════════════════════════════════════════════════════════
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ═══════════════════════════════════════════════════════════
+# Playwright (legacy scraper artifacts)
+# ═══════════════════════════════════════════════════════════
+.playwright/
+playwright-report/
+
+# ═══════════════════════════════════════════════════════════
+# Claude Code workspace metadata
+# ═══════════════════════════════════════════════════════════
+.claude/
+
+# ═══════════════════════════════════════════════════════════
+# Legacy code (kept locally for reference, not pushed)
+# ═══════════════════════════════════════════════════════════
+legacy/
+
+# ═══════════════════════════════════════════════════════════
+# Per-product price history (1000s of small files = noisy commits).
+# Generated locally / on each scrape; not used by the site yet.
+# ═══════════════════════════════════════════════════════════
+data/history/
+
+# Note: data/deals.json and data/meta.json ARE committed — they are the
+# source of truth that the Next.js site reads at build time.
