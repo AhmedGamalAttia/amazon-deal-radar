@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-22T14:22:57.280918+00:00",
-  "next_update": "2026-04-22T14:22:57.280918+00:00",
+  "last_updated": "2026-04-22T15:54:00.059248+00:00",
+  "next_update": "2026-04-22T15:54:00.059248+00:00",
   "domain": "amazon.com",
   "currency": "USD",
   "categories": [
@@ -49,6 +49,6 @@
     "total_deals": 46,
     "lightning_deals": 0,
     "deal_of_day": 0,
-    "avg_discount": 23
+    "avg_discount": 26
   }
 }
